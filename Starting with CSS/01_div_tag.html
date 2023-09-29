@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01_div_tag</title>
+    <link rel="stylesheet" href="01_div_tag_style.css">
+    <style>
+        /* this style for internal */
+        .internal {
+            background-color: aquamarine;
+            color: black;
+            font-size: 25px;
+            height: 260px;
+            text-align: center;
+        }
+
+        .All_Applied {
+            background-color: rgb(66, 31, 206);
+            font-size: 25px;
+            height: 260px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div style=" background-color: rgb(141, 85, 218);font-size: 25px;height: 260px;text-align: center;">
+        <!-- for inline css  -->
+        This is inline CSS
+    </div>
+    <div class="internal">
+        <!-- for internal css -->
+        This is internal CSS
+    </div>
+    <div class="external">
+        <!-- for external css -->
+        This is External CSS
+    </div>
+    <!-- with inline internal and external applied on same element -->
+    <div class="All_Applied"
+        style=" background-color: rgb(231, 29, 97);font-size: 25px;height: 260px;text-align: center;">
+        Here all inline internal and external applied at a time
+        <h2>inline > internal > external</h2>
+    </div>
+</body>
+</html>

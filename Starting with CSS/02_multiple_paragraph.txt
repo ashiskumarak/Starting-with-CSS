@@ -1,0 +1,6 @@
+BEM that is Block Element Modifier which is a css naming convention for writting cleaner and more readable css classes.
+
+paragraph is the block name, representing the base component (the paragraph).
+paragraph-1, paragraph-2, paragraph-3, and paragraph-4 are modifier classes that modify the base component's appearance to distinguish each paragraph from the others.
+
+. This naming convention helps improve code readability and maintainability

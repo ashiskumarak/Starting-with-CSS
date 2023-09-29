@@ -1,0 +1,11 @@
+.external{
+    background-color: rgb(101, 195, 34);
+    color: black;
+    font-size: 25px;height: 260px;
+    text-align: center; 
+    
+}
+/* css for inline internal external */
+.All_Applied{
+    background-color: rgb(231, 15, 144);font-size: 25px;height: 260px;text-align: center;
+    }
